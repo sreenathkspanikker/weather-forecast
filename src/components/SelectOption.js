@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { country } from "../data/countryList";
 import operation from "../data/operation.js";
 import { Select } from "antd";
+import { getcountryName } from '../middleware';
 
 export const SelectOption = props => {
     const [city, setCity] = useState([]);
@@ -30,7 +31,7 @@ export const SelectOption = props => {
           {/* SELECT COUNTRY */}
           <Select onSelect={selectCountry} placeholder="Select Country">
             {country.map((data, idx) => (
-              <Option value={data} key={idx}>{data}</Option>
+              <Option value={data} key={idx}>{getcountryName(data)}</Option>
             ))}
           </Select>
             

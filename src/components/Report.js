@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import {ListGroup, Row, Col} from 'react-bootstrap'
 import Moment from 'react-moment';
+import { getcountryName } from '../middleware';
 
 export const Report = props => {
     const [state, setstate] = useState({})
@@ -21,7 +22,7 @@ export const Report = props => {
                         <ListGroup className="list-info">
                             <Row>
                                 <Col sm={6}>
-                                    <ListGroup.Item><strong>Country Code:</strong><small>{state.city.country}</small></ListGroup.Item>
+                                    <ListGroup.Item><strong>Country Code:</strong><small>{getcountryName(state.city.country)}</small></ListGroup.Item>
                                     <ListGroup.Item><strong>City Name:</strong><small>{state.city.name}</small></ListGroup.Item>
                                 </Col>
                                 <Col sm={6}>

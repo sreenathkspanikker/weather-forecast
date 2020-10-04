@@ -9,6 +9,11 @@ In this project im handlingh with 5 day weather forecast using the data from htt
 1. Report.js
 2. SelecOptions.js
 
+## Middleware
+
+1. Country list filtering
+2. Country alphacode convert to country name
+
 ## pages
 
 1. App.js
@@ -36,5 +41,5 @@ In this project im handlingh with 5 day weather forecast using the data from htt
 
 ### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+For deployement i have benn used Netlify[https://app.netlify.com/]
 
