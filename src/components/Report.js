@@ -37,8 +37,10 @@ export const Report = props => {
                                     return (
                                         <Col key={idx}>
                                             <ListGroup>
+                                                
                                                 <ListGroup.Item><img src={`http://openweathermap.org/img/wn/${list.weather[0].icon}@2x.png`} alt="icon"/></ListGroup.Item>
                                                 <ListGroup.Item><span>{list.weather[0].description}</span></ListGroup.Item>
+                                                <ListGroup.Item><strong>Date & Time</strong><small>{list.dt_txt}</small></ListGroup.Item>
                                                 <ListGroup.Item><strong>Temprature</strong><small>{list.main.temp} C | F</small></ListGroup.Item>
                                                 <ListGroup.Item><strong>Humidity</strong><small>{list.main.humidity}%</small></ListGroup.Item>
                                                 <ListGroup.Item><strong>Pressure</strong><small>{list.main.pressure}%</small></ListGroup.Item>
