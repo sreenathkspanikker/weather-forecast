@@ -1,0 +1,47 @@
+.weather-report{
+    padding: 1rem;
+    transition: all ease .4s;
+    .list-group{
+        margin: 1rem auto;
+        border: 0;
+        padding-bottom: 2rem;
+        &.list-info{
+            max-width: 850px;
+            margin: 0 auto;
+        }
+        .list-group-item{
+            border: 0;
+            padding: 0.5rem;
+            padding: 0.2rem 0;
+            background-color: transparent;
+            strong{
+                opacity: 0.5;
+            }
+            small{
+                margin-left: 1rem;
+            }
+        }
+    }
+    .day-details{
+        .list-group{
+            margin: 0;
+            border-radius: 8px;
+            border: 1px solid #e6e6e6;
+            .list-group-item{
+                text-align: center;
+                line-height: 1.1;
+                strong{
+                    font-size: 0.8em;
+                }
+                small{
+                    font-size: 0.8em;
+                }
+                span{
+                    color: orange;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}

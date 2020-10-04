@@ -1,0 +1,17 @@
+// NORMALISE
+@import './core/normalise';
+
+// ANTD
+@import '~antd/dist/antd.css';
+
+//BOOTSTRAP
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+//UTILS
+@import './utils/variables', "./utils/mixind";
+
+//COMPONENTS
+@import './components/select_option', './components/reports';
+
+// PAGES
+@import './pages/home';

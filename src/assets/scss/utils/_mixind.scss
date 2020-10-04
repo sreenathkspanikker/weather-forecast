@@ -1,0 +1,15 @@
+// FONT FAMILY
+@mixin font-family($font, $size, $color, $font-weight, $line-height) {
+    font-family: $font;
+    font-size: $size;
+    color: $color;
+    font-weight: $font-weight;
+    line-height: $line-height;
+  }
+
+// FLEX
+@mixin flex($align-items, $justify-content) {
+    display: flex;
+    align-items: $align-items;
+    justify-content: $justify-content;
+  }

@@ -1,0 +1,42 @@
+.app-select{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 850px;
+    
+ // ANTD SELECT   
+    .ant-select {
+        width: 48%;
+        margin-right: 1rem;
+        .ant-select-selector{
+            height: 55px;
+            border-radius: 4px;
+        }
+        .ant-select-selection-placeholder{
+            line-height: 50px;
+            font-size: 1.2em;
+        }
+        .ant-select-selection-item{
+            font-size: 1.5em;
+            line-height: 48px;
+        }
+        .ant-select-arrow{
+            font-size: 1.2em;
+            margin-top: -0.5rem;
+            right: 1.5rem;
+        }
+    }
+}
+
+// ANTD DROPDOWN
+.ant-select-dropdown{
+    .rc-virtual-list-holder{
+        .rc-virtual-list-holder-inner{
+            .ant-select-item{
+                padding: 1rem;
+                .ant-select-item-option-content{
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
+}
