@@ -16,7 +16,7 @@ export const SelectOption = props => {
     
     // FUNCTION SELECT CITY
     const selectCity = (id) => {
-      fetch(  `https://api.openweathermap.org/data/2.5/forecast?id=${id}&&cnt=5&appid=2caff03206df1a72b6216b3719e72524` )
+      fetch(  `https://api.openweathermap.org/data/2.5/forecast?id=${id}&appid=2caff03206df1a72b6216b3719e72524` )
         .then((res) => res.json())
         .then((result) => {
             props.selectedData(result)

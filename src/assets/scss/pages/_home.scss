@@ -1,7 +1,6 @@
 .app-weather{
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh;
     padding: 2rem;
     h1{
         margin: 0;
@@ -17,7 +16,7 @@
     .content-wrap{
         width: 100%;
         position: relative;
-        height: calc(100vh - 155px);
+        min-height: calc(100vh - 155px);
         @include flex(center, center);
         .center-item{
             width: 100%;

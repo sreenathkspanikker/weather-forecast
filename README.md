@@ -1,8 +1,12 @@
-This project was bootstrapped with React Js
+This project was bootstrapped with React Js.
 
 ## About the project
 
 In this project im handlingh with 5 day weather forecast using the data from https://openweathermap.org/,  Project created with the latest version of `ReactJs` while we are choosing the country and city depending on this the map weather staus will update.
+
+## pages
+
+1. App.js
 
 ## Components
 
@@ -14,9 +18,6 @@ In this project im handlingh with 5 day weather forecast using the data from htt
 1. Country list filtering
 2. Country alphacode convert to country name
 
-## pages
-
-1. App.js
 
 ## Technologies used
 
@@ -31,6 +32,8 @@ In this project im handlingh with 5 day weather forecast using the data from htt
 9. Git
 10. GitKraken
 11. Visual Studio Code
+12. Bootstrap gris system
+13. Media query ( Fror browser and Devices responsivenes )
 
 ### To configure the project
 
@@ -41,5 +44,5 @@ In this project im handlingh with 5 day weather forecast using the data from htt
 
 ### Deployment
 
-For deployement i have benn used Netlify[https://app.netlify.com/]
+For deployement i have used Netlify[https://app.netlify.com/]
 

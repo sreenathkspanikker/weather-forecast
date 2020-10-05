@@ -41,6 +41,43 @@
                     font-weight: 700;
                     text-transform: capitalize;
                 }
+                .anticon {
+                    font-size: 1.2em;
+                    color: black;
+                }
+                &.temp{
+                    span{
+                        display: inline-block;
+                        position: relative;
+                        color: black;
+                        font-size: 1.5em;
+                        font-weight: 700;
+                        small{
+                            font-size: 0.6em;
+                            font-weight: 300;    
+                            position: absolute;
+                            top: 0;
+                            left: 115%;
+                            width: 35px;
+                            margin: 0;
+                            &::before{
+                                content: " ";
+                                width: 8px;
+                                height: 8px;
+                                border: 1px solid black;
+                                border-radius: 100%;
+                                display: block;
+                                position: absolute;
+                                left: -5px;
+                                top: 0;
+                            }
+                        }
+                    }
+
+                }
+                &.time-wrap{
+                    @include flex(center, space-between)
+                }
             }
         }
         @media (max-width: 992px) {
