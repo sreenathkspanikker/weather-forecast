@@ -2,7 +2,15 @@
     width: 100%;
     margin: 0 auto;
     max-width: 850px;
-    
+    @media (max-width: 992px) {
+        padding: 0 15px;
+        h2{
+            font-size: 1.2em;
+            text-align: left !important;
+        }
+    }
+
+
  // ANTD SELECT   
     .ant-select {
         width: 48%;
@@ -24,6 +32,21 @@
             margin-top: -0.5rem;
             right: 1.5rem;
         }
+        @media (max-width: 992px) {
+            width: 100%;
+            margin-bottom: 1rem;
+            .ant-select-selector{
+                height: 45px;
+            }
+            .ant-select-selection-placeholder{
+                line-height: 40px;
+                font-size: 0.8em;
+            }
+            .ant-select-selection-item{
+                font-size: 1.2em;
+                line-height: 40px;
+            }
+        }
     }
 }
 
@@ -35,6 +58,9 @@
                 padding: 1rem;
                 .ant-select-item-option-content{
                     font-size: 1.5em;
+                    @media (max-width: 992px) {
+                        font-size: 1.1em;
+                    }
                 }
             }
         }

@@ -43,5 +43,21 @@
                 }
             }
         }
+        @media (max-width: 992px) {
+            .row{
+                > div{
+                    width: 50%;
+                    flex-basis: auto;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+        @media (max-width: 768px) {
+            .row{
+                > div{
+                    width: 100%;
+                }
+            }
+        }
     }
 }

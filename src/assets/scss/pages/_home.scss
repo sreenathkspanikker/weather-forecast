@@ -24,4 +24,15 @@
             transition: all ease .4s;
         }
     }
+    @media (max-width: 992px) {
+        height: auto;
+        overflow: initial;
+        h1{
+            font-size: 1.5em;
+        }
+        .content-wrap{
+            display: block;
+        }
+    }
+    
 }
