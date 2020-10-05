@@ -45,4 +45,5 @@ In this project im handlingh with 5 day weather forecast using the data from htt
 ### Deployment
 
 For deployement i have used Netlify[https://app.netlify.com/]
+Hosted URL: [https://weather-forecasting-5days.netlify.app/]
 
